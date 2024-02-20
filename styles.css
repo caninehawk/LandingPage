@@ -14,8 +14,6 @@ body{
     color: white;
     display: flex;
     flex-direction: column;
-    height: auto;
-    flex:1;
     border:0;
     margin:0;
 }
@@ -26,6 +24,8 @@ body{
     padding-bottom: 100px;
     padding-left: 100px;
     padding-right: 100px;
+    flex:1;
+    height: 25%;
 }
 .navbar{
     display: flex;
@@ -48,6 +48,7 @@ body{
 .introduction{
     display:flex;
     padding-top:1em;
+    justify-content: space-between;
     /* justify-content: stretch; */
 }
 .introduction .text{
@@ -68,9 +69,10 @@ body{
 }
 .image{
     background-color: grey;
-    display:flex;
     flex:1;
-    justify-content: flex-end;
+    justify-content: center;
+    text-align: center;
+
     /* justify-content: stretch; */
 }
 .signup{
@@ -84,6 +86,57 @@ body{
 }
 .signup a{
     width:20px;
+}
+.secondSection{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.items{
+    display:flex;
+    flex-direction: row;
+    /* padding:2em; */
+    justify-content: space-between;
+}
+.item{
+    width: 150px;
+    height: 250px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border:3px solid #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.thirdSection{
+    background-color: #E5E7EB;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    padding-bottom:50px;
+}
+.footer{
+    padding:2em; 
+    display:flex;
+    justify-content: center;
+}
+.ending{
+    display:flex;
+    border-radius: 5%;
+    background-color: #3882F6;
+    color:white;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 
